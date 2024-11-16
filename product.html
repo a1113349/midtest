@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>產品</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.1/css/swiper.min.css">
+
+    <link rel="stylesheet" href="./assets/style/all.css">
+
+    <script src="./assets/js/vendors.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.1/js/swiper.min.js"></script>
+ 
+    <script src="./assets/js/all.js"></script>
+</head>
+
+<body>
+    <section class="h-100">
+
+        <section class="header container" id="header">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between" id="navbarRow">
+                <i class="material-icons d-lg-none bugerBtnIcon" type="button" onclick="openCollapseHandler()">dehaze</i>
+                <a class="navbar-brand mr-lg-auto" href="./index.html">
+                    <h4 class="logoText">匠人</h4>
+                </a>
+                <ul class="navbar-nav d-flex align-items-center menuList">
+                    <li class="nav-item active mr-lg-7 d-lg-block pt-0" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                        <a class="nav-link" href="#" onclick="changePageHandler('Product')">產品</a>
+                        <i class="material-icons downArrow__icon">keyboard_arrow_down</i>
+                    </li>
+                    <li class="collapse multi-collapse d-md-none" id="multiCollapseExample1">
+                        <ul class="border-0 p-0 pt-3 list-style-none m-0">
+                            <li class="li mb-3">
+                                <a href="./product.html" class="text-secondary text-decoration-none">全部24</a>
+                            </li>
+                            <li class="li mb-3">
+                                <a href="#" class="text-secondary text-decoration-none">碗10</a>
+                            </li>
+                            <li class="li mb-3">
+                                <a href="#" class="text-secondary text-decoration-none">杯8</a>
+                            </li>
+                            <li class="li mb-3">
+                                <a href="#" class="text-secondary text-decoration-none">盤子3</a>
+                            </li>
+                            <li class="li">
+                                <a href="#" class="text-secondary text-decoration-none">花瓶3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mr-lg-7 d-lg-block">
+                        <a class="nav-link" href="#">部落格</a>
+                    </li>
+                    <li class="nav-item mr-lg-7 d-lg-block">
+                        <a class="nav-link" href="#">聯絡我們</a>
+                    </li>
+                    <li class="shopping__li row">
+                        <a href="#" class="backArrow col-6" onclick="openCollapseHandler()">
+                            <i class="material-icons backArrow__icon">keyboard_arrow_left</i>
+                        </a>
+                        <a href="#" class="col-6 col-lg-12 text-right" onclick="openShoppingCartHandler()">
+                            <i class="material-icons shopping__icon">shopping_cart</i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+       
+        <section class="productPage">
+          
+            <section class="productItemRow mb-4 mb-md-7">
+                <div class="container">
+                    <ul class="list-style-none pl-0 m-0 d-flex align-items-center itemUl">
+                        <li class="li mr-7 active">
+                            <a href="#">
+                                <span>全部24</span>
+                            </a>
+                        </li>
+                        <li class="li mr-7">
+                            <a href="#">
+                                <span>碗10</span>
+                            </a>
+                        </li>
+                        <li class="li mr-7">
+                            <a href="#">
+                                <span>杯8</span>
+                            </a>
+                        </li>
+                        <li class="li mr-7">
+                            <a href="#">
+                                <span>盤子3</span>
+                            </a>
+                        </li>
+                        <li class="li mr-7">
+                            <a href="#">
+                                <span>花瓶3</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+          
+            <section class="productList">
+                <div class="container d-flex flex-row overflow-hidden flex-wrap">
+                    <ul class="list-style-none pl-0 ul">
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <span class="onSale">特價</span>
+                                <img src="./assets/images/img17.jpg" alt="img17" class="img-fluid mb-2">
+                                <h5 class="mb-1">榻榻米杯</h5>
+                                <label>
+                                    <span class="mr-2">NT$1,080</span>
+                                    <span class="text-line-through text-dark">NT$1,200</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <span class="onSale">特價</span>
+                                <img src="./assets/images/img16.jpg" alt="img16" class="img-fluid mb-2">
+                                <h5 class="mb-1">臨大杯</h5>
+                                <label>
+                                    <span>NT$2,400</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <img src="./assets/images/img23.jpg" alt="img23" class="img-fluid mb-2">
+                                <h5 class="mb-1">卡比馬克</h5>
+                                <label>
+                                    <span>NT$980</span>
+                                </label>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-style-none pl-0 ul">
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <span class="onSale">特價</span>
+                                <img src="./assets/images/img15.jpg" alt="img15" class="img-fluid mb-2">
+                                <h5 class="mb-1">花長瓶</h5>
+                                <label>
+                                    <span class="mr-2">NT$3,600</span>
+                                    <span class="text-line-through text-dark">NT$3,880</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <img src="./assets/images/img20.jpg" alt="img20" class="img-fluid mb-2">
+                                <h5 class="mb-1">相撲花瓶</h5>
+                                <label>
+                                    <span>NT$4,800</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <img src="./assets/images/img18.jpg" alt="img18" class="img-fluid mb-2">
+                                <h5 class="mb-1">白色淺盤子</h5>
+                                <label>
+                                    <span>NT$1,200</span>
+                                </label>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-style-none pl-0 ul">
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <span class="onSale">特價</span>
+                                <img src="./assets/images/img13.jpg" alt="img13" class="img-fluid mb-2">
+                                <h5 class="mb-1">百飯碗</h5>
+                                <label>
+                                    <span class="mr-2">NT$1,080</span>
+                                    <span class="text-line-through text-dark totalPrice">NT$1,980</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <img src="./assets/images/img21.jpg" alt="img21" class="img-fluid mb-2">
+                                <h5 class="mb-1">陶瓷花瓶</h5>
+                                <label>
+                                    <span>NT$3,600</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./detail.html" class="text-decoration-none">
+                                <img src="./assets/images/img19.jpg" alt="img19" class="img-fluid mb-2">
+                                <h5 class="mb-1">白色深盤子</h5>
+                                <label>
+                                    <span>NT$1,200</span>
+                                </label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="container mb-4 mb-md-7">
+                <div class="row align-items-center justify-content-center pagenation">
+                    <h4 class="text-primary mr-5">
+                        <a href="#" class="active">1</a>
+                    </h4>
+                    <h4 class="mr-5">
+                        <a href="#">2</a>
+                    </h4>
+                    <h4>
+                        <a href="#">3</a>
+                    </h4>
+                </div>
+            </section>
+        </section>
+
+    
+        <section class="footer" id="footer">
+          
+            <section class="subscribe">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col-12 col-md-5 d-flex justify-content-around flex-column">
+                            <p class="m-0 text-white title">訂閱獲取最新消息與特別優惠！</p>
+                            <div class="input-group row no-gutters">
+                                <div class="col-8">
+                                    <input type="text" placeholder="您的電子郵件地址" class="subscribeInput border-right-0 w-100">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary border-left-0 subscribeBtn">訂閱</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         
+            <section class="copyright">
+                <div class="container h-100">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column flex-md-row">
+                            <h4 class="m-0 mr-3 text-white order-1 mb-7 mb-md-0 order-1">匠人</h4>
+                            <span class="text-white-2 font-size-sm mr-md-auto order-3 order-md-2">© 2024匠人. 版權所有。</span>
+                            <ul class="list-style-none pl-0 d-flex align-items-md-center order-2 order-md-3 flex-column flex-md-row mb-7 mb-md-0">
+                                <li class="li mr-7">
+                                    <a href="#" class="text-white text-decoration-none">
+                                        購買政策
+                                    </a>
+                                </li>
+                                <li class="li mr-7">
+                                    <a href="#" class="text-white text-decoration-none">
+                                        隱私政策
+                                    </a>
+                                </li>
+                                <li class="li">
+                                    <a href="#" class="text-white text-decoration-none">
+                                        條款與條件
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <section class="darkScreen" id="darkScreen"></section>
+        
+        <section class="shoppingCartModal" id="shoppingCartModal">
+            <div class="d-flex align-items-center justify-content-between titleRow">
+                <span class="title">購物車清單 <span class="text-primary">3</span></span>
+                <i class="material-icons font-weight-bold closeIcon" type="button" onclick="openShoppingCartHandler()">close</i>
+            </div>
+            <ul class="goodLists mb-4 list-style-none pl-0 m-0">
+                <li class="li">
+                    <a href="#" class="text-decoration-none d-flex align-items-center">
+                        <div class="imgBox">
+                            <img src="./assets/images/img17.jpg" alt="img17">
+                        </div>
+                        <div class="detailInfo d-flex flex-column">
+                            <div class="d-flex justify-content-between">
+                                <div class="textPart">
+                                    <p class="mb-1 detailInfo__title">榻榻米杯</p>
+                                    <label>
+                                        <span class="mr-2">NT$1,080</span>
+                                        <span class="text-line-through text-dark">NT$1,200</span>
+                                    </label>
+                                </div>
+                                <div class="closePart">
+                                    <i class="material-icons font-weight-bold" type="button" onclick="removeGoodHandler(this)">close</i>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="countBox">
+                                    <div class="countBox__inputBox d-flex justify-content-around align-items-center">
+                                        <i class="material-icons remove__icon cursor-pointer" onclick="addCountNumHandler(this, -1, 1080)">remove</i>
+                                        <input type="number" value="1" class="input">
+                                        <i class="material-icons add__icon cursor-pointer" onclick="addCountNumHandler(this, 1, 1080)">add</i>
+                                    </div>
+                                </div>
+                                <div class="totalPriceBox">
+                                    <span class="font-weight-bold">NT$1,080</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#" class="text-decoration-none d-flex align-items-center">
+                        <div class="imgBox">
+                            <img src="./assets/images/img13.jpg" alt="img13">
+                        </div>
+                        <div class="detailInfo d-flex flex-column">
+                            <div class="d-flex justify-content-between">
+                                <div class="textPart">
+                                    <p class="mb-1 detailInfo__title">百飯碗</p>
+                                    <label>
+                                        <span class="mr-2">NT$1,800</span>
+                                    </label>
+                                </div>
+                                <div class="closePart">
+                                    <i class="material-icons font-weight-bold" type="button" onclick="removeGoodHandler(this)">close</i>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="countBox">
+                                    <div class="countBox__inputBox d-flex justify-content-around align-items-center">
+                                        <i class="material-icons remove__icon cursor-pointer" onclick="addCountNumHandler(this, -1, 1800)">remove</i>
+                                        <input type="number" value="2" class="input">
+                                        <i class="material-icons add__icon cursor-pointer" onclick="addCountNumHandler(this, 1, 1800)">add</i>
+                                    </div>
+                                </div>
+                                <div class="totalPriceBox">
+                                    <span class="font-weight-bold">NT$3,600</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            
+            <section class="totalInfo">
+                <div class="d-flex">
+                    <div class="emptyBox">
+
+                    </div>
+                    <div class="textInfoBox">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <p class="text-secondary">小計</p>
+                            <p class="text-secondary" id="subtotalNum">NT$4,680</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <p class="text-secondary">運費</p>
+                            <p class="text-secondary">NT$80</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h4 class="text-secondary mb-0 font-weight-bold">總計</h4>
+                            <h4 class="text-secondary mb-0 font-weight-bold" id="totalNum">NT$4,760</h4>
+                        </div>
+                        <a href="./information.html" type="button" class="btn btn-primary text-white">結帳</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>
